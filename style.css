@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Tajawal:wght@200;300;400;500;700;800;900&family=Tiro+Devanagari+Hindi:ital@0;1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(image/romain-taupiac-KxX9Vm453D8-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color: #fff;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.logo span{
+    color: #3AB4F2;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #3AB4F2;
+    transition: .4s;
+}
+.btn{
+    background-color: #242F9B;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid transparent;
+    padding: 10px 25px;
+    font-weight: bolder;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.btn:hover{
+    background-color: #242F9B;
+    transform: scale(1.1);
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+    color: #3AB4F2;
+    margin: 20px 0 20px;
+    font-size: 75px;
+}
+span{
+    color: #fff;
+}
+h3{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+h4{
+    color: #777;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+.newslatter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.newslatter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #3AB4F2;
+    border-radius: 30px;
+    outline: none;
+}
+.newslatter form input:first-child:hover{
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1);
+}
+.newslatter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #242F9B ;
+    color: #fff;
+    font-weight: 800;
+    box-shadow: 0 0 5px #000 , 0 0 15px #858585;
+    top: 6px;
+    right: 6px;
+    cursor: pointer;
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #000;
+}
+.about img{
+    height: auto;
+    width: 450px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text span{
+    color: #3AB4F2;
+}
+.about-text p{
+    color: #fcfc;
+    letter-spacing: 2px;
+    line-height: 35px;
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+button{
+    background-color: #242F9B;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 27px;
+    border-radius: 25px;
+    transition: .4s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid #242F9B;
+    cursor: pointer;
+}
+
+.services{
+    background: #000;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #858585;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #242F9B;
+}
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card .button{
+    background-color: #242F9B;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 6px 19px;
+    border-radius: 25px;
+    transition: transform .4s;
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid #242F9B;
+    cursor: pointer;
+}
+.content-me{
+    width: 100%;
+    height: 290px;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.content-me p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.content-me .button-tow{
+    background-color: #242F9B;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 27px;
+    border-radius: 25px;
+    transition: transform .4s;
+}
+.content-me .button-tow:hover{
+    background-color: transparent;
+    border: 2px solid #242F9B;
+    cursor: pointer;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #858585;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p:nth-child(1){
+    font-size: 35px;
+    color:white ;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    color: white;
+    font-size: 19px;
+    width: 500px;
+    text-align: center;
+    line-height: 28px;
+}
+.social{
+    display: flex;
+}
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #242F9B;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.social a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+.end{
+    position: absolute;
+    color: #242F9B;
+    bottom: 30px;
+    font-size: 15px;
+}
